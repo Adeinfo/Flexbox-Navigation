@@ -20,10 +20,47 @@ ul{
     padding: 0;
     list-style: none;
 }
+.twitter li{
+    padding-right: 20px;
+}
+.twitter li:hover{
+    color: #1DA1F2;
+    cursor: pointer;
+}
 .twitter{
     display: flex;
 }
 .twitter__bird {
     margin-left: auto;
     margin-right: auto;
+    color: #1DA1F2;
+    font-size: 1.3em;
   }
+.twitter li button{
+    background-color: #1DA1F2;
+    border-radius: 25px;
+    color: beige;
+    font-weight: bold;
+}
+
+/* facebook styling start here */
+.facebook_nav{
+    background-color: #3B5998;
+}
+.facebook{
+    display: flex;
+    border: 1px solid red;
+    height: 46px;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgba(238,238,238 ,1);
+    border-radius: 5px;
+    background: rgba(59,89,153 ,1);
+    color: #fff;
+    font-size: 0.9em;
+    box-shadow: 5px 10px 20px -20px rgba(59,89,153 ,1)
+}
+.facebook__search{
+    margin-right: auto;
+
+}
